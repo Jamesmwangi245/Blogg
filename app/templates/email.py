@@ -5,7 +5,7 @@ from.import mail
 
 
 def welcome_message(subject,template,to,**kwargs):
-    sender_email = "james.kariuki@student.moringaschool@gmail.com"
+    sender_email = "james.kariuki@student.moringaschool.com"
 
 
     email = Message(subject, sender=sender_email, recipients=[to])
