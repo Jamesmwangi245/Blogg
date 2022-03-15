@@ -6,8 +6,8 @@ from app.models import post, User
 
 class PostModelTest(unittest.TextCase):
     def setUp(self):
-        self.user_amos = User(username='amos', password='kimu',email='james.kariuki@student.moringaschool.com')
-        self.new_blogs = post(id=1,title='test',content='This is a test blog',user_id=self.user_kimutai.id)
+        self.user_amos = User(username='james', password='kariki',email='james.kariuki@student.moringaschool.com')
+        self.new_blogs = post(id=1,title='test',content='This is a test blog',user_id=self.user_james.id)
 
 
 

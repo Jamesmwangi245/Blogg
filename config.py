@@ -5,7 +5,7 @@ class Config:
     
     # SQLALCHEMY_DATABASE_URI = 'postgresql://qpbzntypxoxtru:d697aeba98bca2a973554ab25e8617bb45086902792925fa1add4d9eedd0688e@ec2-23-22-191-232.compute-1.amazonaws.com:5432/d1v1hl204cn7cu'
 
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa-school:12345@localhost/blogs'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://jameskariuki:12345@localhost/blog'
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
 
@@ -44,9 +44,9 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://james.kariuki:12345@localhost/blogs'
-    # SQLALCHEMY_DATABASE_URI ='postgresql://qpbzntypxoxtru:d697aeba98bca2a973554ab25e8617bb45086902792925fa1add4d9eedd0688e@ec2-23-22-191-232.compute-1.amazonaws.com:5432/d1v1hl204cn7cu'
-    # app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:12345@localhost/blogs"
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://jameskariuki:12345@localhost/blog'
+    SQLALCHEMY_DATABASE_URI ='postgresql://qpbzntypxoxtru:d697aeba98bca2a973554ab25e8617bb45086902792925fa1add4d9eedd0688e@ec2-23-22-191-232.compute-1.amazonaws.com:5432/d1v1hl204cn7cu'
+    # app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:12345@localhost/blog"
 
     DEBUG = True
 
